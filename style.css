@@ -1,0 +1,137 @@
+body {
+    background-image: url('basket wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+marquee {
+    text-align: center;
+    margin: 10px auto;
+    width: 60%;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+header {
+    background: orange;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    width: 60%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+header h1 {
+    margin: 5px 0;
+    color: #333;
+}
+
+header p {
+    margin: 5px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav {
+    background: purple;
+    margin: 0 auto;
+    width: 60%;
+    padding: 12px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+article {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+article h2, article h3, article h4, article h5 {
+    color: orange;
+}
+
+article ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+article li {
+    margin-bottom: 8px;
+}
+
+video {
+    display: block;
+    margin: 15px 0;
+    max-width: 100%;
+}
+
+aside {
+    background: black;
+    width: 30%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 300px;
+    color: white;
+}
+
+aside h3 {
+    color: purple;
+    margin-top: 0;
+}
+
+aside ul {
+    padding-left: 20px;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    width: 60%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
